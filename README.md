@@ -28,7 +28,7 @@ A production-ready telemetry ingestion system designed to handle high-frequency 
 
 ### Prerequisites
 - Node.js 18+
-- PostgreSQL 15+ (or Docker)
+- PostgreSQL 15+
 
 ### 1. Installation
 
@@ -144,10 +144,3 @@ curl http://localhost:3000/v1/analytics/performance/V1
 
 ---
 
-## 🐳 Docker Deployment
-
-To run with Docker Compose (includes independent PostgreSQL instance):
-
-```bash
-docker compose up --build
-```
